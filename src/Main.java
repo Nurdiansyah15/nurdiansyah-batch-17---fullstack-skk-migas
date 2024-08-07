@@ -7,10 +7,13 @@ public class Main {
         List<String> list4 = Arrays.asList("NewYork", "London", "Paris", "Tokyo");
         List<String> list5 = Arrays.asList("Elephant", "Tiger", "Kangaroo", "Panda");
 
-        System.out.println(freqChar(list1));
-        System.out.println(freqChar(list2));
-        System.out.println(freqChar(list4));
-        System.out.println(freqChar(list5));
+        System.out.println("output: " + freqChar(list1));
+        System.out.println();
+        System.out.println("output: " + freqChar(list2));
+        System.out.println();
+        System.out.println("output: " + freqChar(list4));
+        System.out.println();
+        System.out.println("output: " + freqChar(list5));
 
     }
 
@@ -58,7 +61,8 @@ public class Main {
             }
 
         }
-        System.out.println(mapList);
+        System.out.println("input: " + arr);
+        System.out.println("process: " + mapList);
         return sb.toString();
     }
 
